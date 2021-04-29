@@ -49,13 +49,13 @@ const Footer = () => {
                             <li className="list-inline-item"><a href="//instagram.com"><FontAwesomeIcon className="icon" icon={faInstagram} /></a></li>
                         </ul>
                         <div className="mt-5">
-                            <h6>Call now</h6>
+                            <h6 className="text-secondary">Call now</h6>
                             <button className="btn btn-primary">+2025550295</button>
                         </div>
                     </FooterCol>
                 </div>
                 <div className="copyRight text-center">
-                    <p>Copyright {(new Date()).getFullYear()} All Rights Reserved</p>
+                    <p className="text-secondary">Copyright {(new Date()).getFullYear()} All Rights Reserved</p>
                 </div>
             </div>
         </footer>
